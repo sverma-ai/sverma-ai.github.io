@@ -1,41 +1,217 @@
-<!DOCTYPE html>
+<div class="logo">
+            <img src="data:image/png;base64,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<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>StylezZone - Store Closed</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      background-color: #fff0f5;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      text-align: center;
-      color: #6b2d5c;
-    }
-    .container {
-      padding: 50px 20px;
-    }
-    .logo {
-      max-width: 200px;
-      margin: 0 auto 30px;
-    }
-    h1 {
-      font-size: 2.5em;
-      margin-bottom: 10px;
-    }
-    p {
-      font-size: 1.2em;
-      max-width: 600px;
-      margin: 0 auto;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StylezZone - Store Closed</title>
+    <meta name="description" content="StylezZone online retail store is permanently closed. Thank you for your support.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 3rem 2rem;
+            max-width: 600px;
+            margin: 2rem;
+            text-align: center;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .logo {
+            margin-bottom: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo img {
+            max-width: 200px;
+            height: auto;
+            filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.1));
+        }
+
+        .status-badge {
+            display: inline-block;
+            background: #ff6b6b;
+            color: white;
+            padding: 0.5rem 1.5rem;
+            border-radius: 25px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            margin-bottom: 2rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            color: #2c3e50;
+        }
+
+        .message {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 2rem;
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .thank-you {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 600;
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        .contact-info {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 1.5rem;
+            margin-top: 2rem;
+            border-left: 4px solid #667eea;
+        }
+
+        .contact-info h3 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+
+        .contact-info p {
+            color: #666;
+            margin-bottom: 0.5rem;
+        }
+
+        .email-link {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .email-link:hover {
+            color: #764ba2;
+            text-decoration: underline;
+        }
+
+        .footer {
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid #eee;
+            color: #999;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                margin: 1rem;
+                padding: 2rem 1.5rem;
+            }
+            
+            .logo {
+                font-size: 2rem;
+            }
+            
+            h1 {
+                font-size: 1.6rem;
+            }
+            
+            .message {
+                font-size: 1rem;
+            }
+        }
+
+        .decoration {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.1);
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .decoration:nth-child(1) {
+            top: 10%;
+            left: 10%;
+            animation-delay: 0s;
+        }
+
+        .decoration:nth-child(2) {
+            top: 20%;
+            right: 10%;
+            animation-delay: 2s;
+        }
+
+        .decoration:nth-child(3) {
+            bottom: 20%;
+            left: 15%;
+            animation-delay: 4s;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <img src="logo.JPG" alt="StylezZone Logo" class="logo" />
-    <h1>StylezZone is now closed</h1>
-    <p>Thank you for your support over the year. Our online store has officially closed operations. We appreciate all our loyal customers and partners. For any inquiries, please reach out to us directly.</p>
-  </div>
+    <div class="decoration"></div>
+    <div class="decoration"></div>
+    <div class="decoration"></div>
+    
+    <div class="container">
+        <div class="logo">StylezZone</div>
+        <div class="status-badge">Store Closed</div>
+        
+        <h1>Thank You for Your Support</h1>
+        
+        <div class="message">
+            We regret to inform you that StylezZone online retail store has permanently closed its operations. After careful consideration, we have made the difficult decision to discontinue our services.
+        </div>
+        
+        <div class="thank-you">
+            We sincerely appreciate all the support and trust you have shown us throughout our journey.
+        </div>
+        
+        <div class="contact-info">
+            <h3>Need Assistance?</h3>
+            <p>If you have any questions regarding previous orders or need support, please contact us:</p>
+            <p><a href="mailto:support@stylezzone.com" class="email-link">support@stylezzone.com</a></p>
+            <p>We will do our best to assist you with any outstanding matters.</p>
+        </div>
+        
+        <div class="footer">
+            <p>&copy; 2025 StylezZone. All rights reserved.</p>
+            <p>This website is hosted as a static page for informational purposes.</p>
+        </div>
+    </div>
 </body>
 </html>
