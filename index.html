@@ -1,214 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>StylezZone - Store Closed</title>
-    <meta name="description" content="StylezZone online retail store is permanently closed. Thank you for your support.">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #333;
-            line-height: 1.6;
-        }
-
-        .container {
-            background: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(10px);
-            border-radius: 20px;
-            padding: 3rem 2rem;
-            max-width: 600px;
-            margin: 2rem;
-            text-align: center;
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-        }
-
-        .logo {
-            font-size: 2.5rem;
-            font-weight: bold;
-            background: linear-gradient(135deg, #667eea, #764ba2);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            margin-bottom: 1rem;
-            letter-spacing: -1px;
-        }
-
-        .status-badge {
-            display: inline-block;
-            background: #ff6b6b;
-            color: white;
-            padding: 0.5rem 1.5rem;
-            border-radius: 25px;
-            font-weight: 600;
-            font-size: 0.9rem;
-            margin-bottom: 2rem;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-
-        h1 {
-            font-size: 2rem;
-            margin-bottom: 1.5rem;
-            color: #2c3e50;
-        }
-
-        .message {
-            font-size: 1.1rem;
-            color: #555;
-            margin-bottom: 2rem;
-            max-width: 500px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .thank-you {
-            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            font-weight: 600;
-            font-size: 1.2rem;
-            margin-bottom: 2rem;
-        }
-
-        .contact-info {
-            background: #f8f9fa;
-            border-radius: 15px;
-            padding: 1.5rem;
-            margin-top: 2rem;
-            border-left: 4px solid #667eea;
-        }
-
-        .contact-info h3 {
-            color: #2c3e50;
-            margin-bottom: 1rem;
-            font-size: 1.2rem;
-        }
-
-        .contact-info p {
-            color: #666;
-            margin-bottom: 0.5rem;
-        }
-
-        .email-link {
-            color: #667eea;
-            text-decoration: none;
-            font-weight: 600;
-            transition: all 0.3s ease;
-        }
-
-        .email-link:hover {
-            color: #764ba2;
-            text-decoration: underline;
-        }
-
-        .footer {
-            margin-top: 2rem;
-            padding-top: 2rem;
-            border-top: 1px solid #eee;
-            color: #999;
-            font-size: 0.9rem;
-        }
-
-        @media (max-width: 768px) {
-            .container {
-                margin: 1rem;
-                padding: 2rem 1.5rem;
-            }
-            
-            .logo {
-                font-size: 2rem;
-            }
-            
-            h1 {
-                font-size: 1.6rem;
-            }
-            
-            .message {
-                font-size: 1rem;
-            }
-        }
-
-        .decoration {
-            position: absolute;
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            background: rgba(255, 255, 255, 0.1);
-            animation: float 6s ease-in-out infinite;
-        }
-
-        .decoration:nth-child(1) {
-            top: 10%;
-            left: 10%;
-            animation-delay: 0s;
-        }
-
-        .decoration:nth-child(2) {
-            top: 20%;
-            right: 10%;
-            animation-delay: 2s;
-        }
-
-        .decoration:nth-child(3) {
-            bottom: 20%;
-            left: 15%;
-            animation-delay: 4s;
-        }
-
-        @keyframes float {
-            0%, 100% {
-                transform: translateY(0px);
-            }
-            50% {
-                transform: translateY(-20px);
-            }
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>StylezZone - Store Closed</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #fff0f5;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      color: #6b2d5c;
+    }
+    .container {
+      padding: 50px 20px;
+    }
+    .logo {
+      max-width: 200px;
+      margin: 0 auto 30px;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.2em;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+  </style>
 </head>
 <body>
-    <div class="decoration"></div>
-    <div class="decoration"></div>
-    <div class="decoration"></div>
-    
-    <div class="container">
-        <div class="logo">StylezZone</div>
-        <div class="status-badge">Store Closed</div>
-        
-        <h1>Thank You for Your Support</h1>
-        
-        <div class="message">
-            We regret to inform you that StylezZone online retail store has permanently closed its operations. After careful consideration, we have made the difficult decision to discontinue our services.
-        </div>
-        
-        <div class="thank-you">
-            We sincerely appreciate all the support and trust you have shown us throughout our journey.
-        </div>
-        
-        <div class="contact-info">
-            <h3>Need Assistance?</h3>
-            <p>If you have any questions regarding previous orders or need support, please contact us:</p>
-            <p><a href="mailto:support@stylezzone.com" class="email-link">support@stylezzone.com</a></p>
-            <p>We will do our best to assist you with any outstanding matters.</p>
-        </div>
-        
-        <div class="footer">
-            <p>&copy; 2025 StylezZone. All rights reserved.</p>
-            <p>This website is hosted as a static page for informational purposes.</p>
-        </div>
-    </div>
+  <div class="container">
+    <img src="logo.jpeg" alt="StylezZone Logo" class="logo" />
+    <h1>StylezZone is now closed</h1>
+    <p>Thank you for your support over the year. Our online store has officially closed operations. We appreciate all our loyal customers and partners. For any inquiries, please reach out to us directly.</p>
+  </div>
 </body>
 </html>
